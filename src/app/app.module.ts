@@ -12,6 +12,7 @@ import { NewCourseFormComponent } from './new-course-form/new-course-form.compon
 import { FormBuilderSampleComponent } from './form-builder-sample/form-builder-sample.component';
 import { PostsComponent } from './posts/posts.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { LogInComponent } from './log-in/log-in.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
     NewCourseFormComponent,
     FormBuilderSampleComponent,
     PostsComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    LogInComponent
   ],
   imports: [
     BrowserModule,
